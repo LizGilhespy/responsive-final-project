@@ -7,15 +7,15 @@
 
 body {
   font-family: var(--default-font-family);
+  color: #000;
 }
 
 h1,
 h2 h3,
 h4 h5,
 h6 {
-  color: #000;
   font-family: var(--heading-font-family);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h1 {
@@ -24,8 +24,13 @@ h1 {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 700;
   font-size: 36px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 p {
@@ -41,6 +46,7 @@ p {
 
 .hero h2 {
   font-family: var(--default-font-family);
+  font-weight: 400;
   line-height: 2;
   font-size: 36px;
 }
@@ -54,7 +60,6 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #000;
 }
 
 .btn {
@@ -90,6 +95,20 @@ p {
   background: var(--branding-color);
   color: #fff;
   border-radius: 4px;
+}
+
+.project-preview {
+  padding: 20px 0;
+}
+
+.project-preview img {
+  border-radius: 10px;
+  max-block-size: 80%;
+}
+
+.enquiry {
+  color: #fff;
+  font-size: 36px;
 }
 
 .project-description {

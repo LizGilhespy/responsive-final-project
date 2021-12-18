@@ -23,14 +23,66 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Sacramento&display=swap"
       rel="stylesheet"
     />
     <script
       src="https://kit.fontawesome.com/539b48bc49.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>About Liz Gilhespy</title>
   </head>
+  <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="images/LG-logo-main.png"
+            class="logo d-none d-md-block"
+            alt="logo image"
+          />
+          <img
+            src="images/LG-logo-small.png"
+            class="logo d-block d-md-none"
+            alt="logo image"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Liz">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Liz's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Liz">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="about-section container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-section-content">
+            <h1 class="mb-4">Hi I am Liz Gilhespy</h1>
+            <h2 class="mb-4">Frontend developer based in the UK</h2>
+            <p class="mb-5">
+              For anyone who wants to start learning code, this workshop is very
+              interesting. You will be challenged with different exercises,
+              everything is well explained, and homework and deadlines are good
+              for keeping focus
+            </p>
+            <a href class="btn btn-branding">See my projects</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/liz.jpg" alt class="img-fluid about-image" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
